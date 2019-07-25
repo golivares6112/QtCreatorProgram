@@ -27,6 +27,13 @@ void ImprimirPersona(const Persona &p)
 
 }
 
+template <class tipo>
+tipo mayor(tipo dato1, tipo dato2)
+{
+    return (dato1 > dato2 ? dato1 : dato2);
+}
+
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
